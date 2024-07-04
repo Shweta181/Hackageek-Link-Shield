@@ -24,7 +24,7 @@ The objective of this project is to develop a web extension that enhances user s
 
 **Machine Learning Model**: A trained model that classifies URLs as malicious or benign. The data of phishing URLs are collected from opensource service called **PhishTank**. This service provide a set of phishing URLs in multiple formats like csv, json etc.
 To download the data: https://www.phishtank.com/developer_info.php.
-The libraries used here are numpy , pandas , xgboost , etc.
+The libraries used here are  pandas , etc.
 For training the model, following steps are to be followed -
 
 1- Gathering Data
