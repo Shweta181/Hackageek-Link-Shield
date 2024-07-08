@@ -1,7 +1,8 @@
 # Hackageek-Link-Shield
 Dynamic Malicious Link Detection and Highlighting Web Extension
+The PDF of our Idea and Workflow - https://github.com/Shweta181/Hackageek-Link-Shield/blob/main/TEAM%20LINK%20-%20SHIELD.pdf
 
-## iDEA / OBJECTIVE
+## IDEA / OBJECTIVE
 
 The idea of this project is to develop a web extension that enhances user security by dynamically identifying malicious or suspicious links on webpages by using machine learning models that are trained on dataset . It alerts the user visually by highlighting potentially malicious or suspicious links on webpages  without requiring their active intervention.The extension utilizes a machine learning model to classify links in real-time.
 
