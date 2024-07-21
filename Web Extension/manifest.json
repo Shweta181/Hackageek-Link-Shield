@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Link Shield Extension",
+  "version": "1.0",
+  "description": "Identifies and highlights potentially malicious or suspicious links on webpages.",
+  "permissions": ["activeTab", "storage", "scripting","webRequest"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["popup.js"]
+    }
+  ]
+}
